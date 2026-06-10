@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.idea/
+*.pyc
+*.tar
+.DS_Store
+
+# Python environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ML artifacts and local datasets
+checkpoints/**/*.pth
+checkpoints/**/*.pt
+data/raw/
+data/processed/
+outputs/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Models (IMPORTANT)
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# Full checkpoint folders
+checkpoints/
+pretrained/
+models/
+weights/
+
+# Dataset (common ML folders)
+data/
+dataset/
+
+# HuggingFace / transformers cache (optional but useful)
+.cache/
